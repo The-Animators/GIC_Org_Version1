@@ -1,0 +1,61 @@
+body{
+  font-family: courier !important ;
+}
+
+.badge{
+  padding: 5px;
+}
+
+.align-center{
+  text-align: center;
+  text-align-last: center;
+}
+.align-right{
+  text-align: right;
+  text-align-last: right;
+}
+.mt-30{
+  margin-top: 30px;
+}
+.d-block, .d-sm-block{
+  display: inline-block!important; 
+}
+.form-control:valid, .form-control:invalid{
+  background-image:none !important;
+}
+.form-control:focus{                    /*Yellow Highlight*/
+   border-color: #e8f70c !important
+}
+
+.table-responsive {
+    /*display: inline-table !important;*/
+    /*min-width: 100%;*/
+}
+table.table-bordered.dataTable td {
+    white-space: break-spaces;
+}
+.pull-right{
+  float: right;
+}
+
+.noresize{
+  resize: vertical;
+}
+.txt{
+  min-height: 125px !important;
+}
+.pdf{
+  color: #f32525;
+  background-color: #ffffff;
+}
+.nowrap{
+  white-space: nowrap !important;
+}
+.verifyIt1 , .ValidateIt{
+ cursor: pointer;
+}
+@media all and (max-width: 768px) {
+    .d-sm-block{
+      display: none!important; 
+    }
+}

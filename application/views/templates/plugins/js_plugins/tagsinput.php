@@ -1,0 +1,1 @@
+<script src="<?php echo base_url(); ?>assets/libs/bootstrap-tagsinput/bootstrap-tagsinput.min.js"></script>

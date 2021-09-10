@@ -1,0 +1,1 @@
+<link href="<?php echo base_url(); ?>assets/libs/bootstrap-tagsinput/bootstrap-tagsinput.css" rel="stylesheet" />
